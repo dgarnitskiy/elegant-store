@@ -4,4 +4,4 @@
 - SCSS
 - Gulp
 
-[Смотрите Демо](https://dgarnitskiy.github.io/elegant-store/ "Демо")
+[Смотреть Демо](https://dgarnitskiy.github.io/elegant-store/ "Демо")
