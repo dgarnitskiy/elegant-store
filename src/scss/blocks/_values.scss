@@ -1,0 +1,28 @@
+.values {
+	padding: 40px 0;
+
+	@include mobile {
+		padding: 32px 0;
+	}
+}
+.values__content {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 24px;
+
+	& > * {
+		min-width: 262px;
+		flex: 1;
+	}
+
+	@include mobile {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 24px 8px;
+
+		& > * {
+			min-width: 152px;
+		}
+	}
+}

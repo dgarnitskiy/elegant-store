@@ -1,0 +1,27 @@
+.header {
+	// position: fixed;
+	background-color: #ffc95c;
+	padding: 18px 0;
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__wrapper {
+		display: flex;
+		align-items: center;
+		gap: 11px;
+	}
+	&__btns {
+		display: flex;
+		gap: 16px;
+	}
+	&__btn {
+		@include mobile {
+			&_search,
+			&_user {
+				display: none;
+			}
+		}
+	}
+}

@@ -1,0 +1,40 @@
+.btn {
+	text-align: center;
+	display: inline-block;
+	border-radius: 8px;
+	color: #fff;
+	background-color: var(--black-light);
+	transition: all 0.2s ease-in-out;
+
+	padding: 12px 56px;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 32px;
+	letter-spacing: -0.4px;
+
+	&_small {
+		padding: 9px 40px;
+		font-size: 16px;
+		line-height: 1.75;
+		letter-spacing: -0.4px;
+		font-weight: 500;
+
+		@include mobile {
+			padding: 6px 40px;
+		}
+	}
+	&_wide {
+		width: 100%;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	&:hover {
+		opacity: 0.9;
+	}
+
+	@include mobile {
+		font-size: 14px;
+		line-height: 24px;
+		letter-spacing: 0;
+	}
+}

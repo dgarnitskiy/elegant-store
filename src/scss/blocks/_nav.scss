@@ -1,0 +1,17 @@
+.nav {
+	&__list {
+		display: flex;
+		gap: 40px;
+	}
+	&__link {
+		display: flex;
+		align-items: center;
+		gap: 2px;
+		color: var(--black-light);
+		font-weight: 500;
+		font-family: var(--font-nav);
+	}
+	@include mobile {
+		display: none;
+	}
+}

@@ -1,0 +1,24 @@
+.close-mobile-menu {
+	display: block;
+	position: relative;
+	height: 2px;
+	width: 14px;
+	background-color: #141718;
+	border-radius: 1px;
+	transform: rotate(45deg);
+	&::before {
+		position: absolute;
+		content: '';
+		display: block;
+		top: 0;
+		left: 0;
+		width: 14px;
+		height: 2px;
+		background-color: #141718;
+		border-radius: 1px;
+		transform: rotate(90deg);
+	}
+	&::after {
+		display: none;
+	}
+}

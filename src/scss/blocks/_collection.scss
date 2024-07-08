@@ -1,0 +1,25 @@
+.collection {
+	&__title {
+		padding: 48px 0;
+	}
+
+	@include mobile {
+		padding: 40px 0;
+		&__title {
+			padding: 0 0 16px;
+			text-align: center;
+		}
+	}
+}
+
+.collection__grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 48px 24px;
+
+	@include mobile {
+		grid-template-columns: 1fr;
+		grid-auto-rows: 180px;
+		row-gap: 16px;
+	}
+}

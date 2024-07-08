@@ -1,0 +1,20 @@
+[
+	{
+		"img": "01",
+		"title": "Headband",
+		"href": "#!",
+		"mode": "collection-card_tall"
+	},
+	{
+		"img": "02",
+		"title": "Earbuds",
+		"href": "#!",
+		"mode": ""
+	},
+	{
+		"img": "03",
+		"title": "Accessories",
+		"href": "#!",
+		"mode": ""
+	}
+]

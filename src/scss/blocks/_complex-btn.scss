@@ -1,0 +1,17 @@
+.complex-btn {
+	display: flex;
+	gap: 5px;
+	align-items: center;
+	&__count {
+		color: var(--yellow);
+		background-color: var(--black-light);
+		width: 20px;
+		height: 20px;
+		font-size: 12px;
+		line-height: 20px;
+		border-radius: 50%;
+		&_white {
+			color: #ffffff;
+		}
+	}
+}

@@ -1,0 +1,93 @@
+.tagline {
+	padding: 8px 15px;
+	background-color: var(--black-light);
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 12px;
+	position: relative;
+
+	@include mobile {
+		gap: 0;
+	}
+
+	&__icon {
+		width: 24px;
+		height: 24px;
+
+		@include mobile {
+			width: 16px;
+			height: 16px;
+			margin-right: 8px;
+		}
+	}
+
+	&__desc {
+		font-size: 14px;
+		line-height: 1.571428571428571;
+		font-weight: 600px;
+		border-bottom: 1px solid transparent;
+
+		@include mobile {
+			font-size: 12px;
+			line-height: 1.666666666666667;
+			border-bottom: none;
+		}
+	}
+	&__link {
+		font-size: 14px;
+		line-height: 24px;
+		font-weight: 500;
+
+		display: flex;
+		gap: 4px;
+		align-items: center;
+		color: var(--tagline-link);
+		border-bottom: 1px solid var(--yellow);
+		&_overlay {
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			z-index: 5;
+		}
+		svg {
+			stroke: #ffab00;
+		}
+		@include mobile {
+			display: none;
+		}
+	}
+	&__close {
+		position: absolute;
+		top: 10px;
+		right: 16px;
+		z-index: 10;
+
+		@include mobile {
+			position: static;
+			margin-left: 22px;
+		}
+		&:hover {
+			svg {
+				fill: #fefefe;
+			}
+		}
+		svg {
+			width: 20px;
+			height: 20px;
+			display: block;
+			fill: #343839;
+			transition: all 0.2s ease-in;
+
+			@include mobile {
+				width: 16px;
+				height: 16px;
+				fill: #fefefe;
+			}
+		}
+	}
+}
