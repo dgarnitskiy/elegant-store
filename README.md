@@ -4,4 +4,4 @@
 - SCSS
 - Gulp
 
-[ссылки с title элементом](https://trofimovdigital.ru "title")
+[Смотрите Демо](https://dgarnitskiy.github.io/elegant-store/ "Демо")
