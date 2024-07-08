@@ -1,4 +1,4 @@
-# Верстка лендинга Elegant store
+# Верстка главной страницы Elegant store
 
 - Html
 - SCSS
